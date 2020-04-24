@@ -1,3 +1,5 @@
+![alt text](https://github.com/rdzhao/3DHodgeDecomposition/blob/master/figs/teaser.png)
+
 # Overview
 
 This is the source code of the paper "3D Hodge Decompositions of Edge- and Face-Based Vector Fields". And it is tested on 
@@ -16,5 +18,3 @@ An important implementation detail is that a random generated field is used as i
 There is also an implementation of Runge-Kutta integration for generation of integral lines of vector field for visualization purposes. 
 
 Have fun playing with the code. 
-
-![alt text](https://github.com/rdzhao/3DHodgeDecomposition/blob/master/figs/teaser.png)
