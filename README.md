@@ -18,4 +18,4 @@ There is also an implementation of Runge-Kutta integration for generation of int
 Have fun playing with the code. 
 
 ![alt text][teaser]
-[teaser]: 
+[teaser]: https://github.com/rdzhao/3DHodgeDecomposition/blob/master/figs/teaser.png
