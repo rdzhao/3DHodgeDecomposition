@@ -1200,10 +1200,10 @@ void My_Triangulation::buildED2F_B()
 
 			//int even = 1;
 
-			for (int i = 0; i < gIdx.size(); ++i) {
-				for (int j = i + 1; j < gIdx.size(); ++j) {
-					if (gIdx[i] > gIdx[j]) {
-						std::swap(gIdx[i], gIdx[j]);
+			for (int j = 0; j < gIdx.size(); ++j) {
+				for (int k = j + 1; k < gIdx.size(); ++k) {
+					if (gIdx[j] > gIdx[k]) {
+						std::swap(gIdx[j], gIdx[k]);
 						even = -even;
 					}
 				}
@@ -1350,10 +1350,10 @@ void My_Triangulation::buildED2F_NB()
 
 			//int even = 1;
 
-			for (int i = 0; i < gIdx.size(); ++i) {
-				for (int j = i + 1; j < gIdx.size(); ++j) {
-					if (gIdx[i] > gIdx[j]) {
-						std::swap(gIdx[i], gIdx[j]);
+			for (int j = 0; j < gIdx.size(); ++j) {
+				for (int k = j + 1; k < gIdx.size(); ++k) {
+					if (gIdx[j] > gIdx[k]) {
+						std::swap(gIdx[j], gIdx[k]);
 						even = -even;
 					}
 				}
